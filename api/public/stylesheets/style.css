@@ -2,7 +2,31 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-
 a {
   color: #00B7FF;
+}
+h1{
+  background-color: rgb(153, 152, 152);
+  text-align: center;
+  color:whitesmoke;
+  width: 12em;
+  margin: auto;
+  padding: 1em;
+}
+.users{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+  background-color:#e0e0e0;
+  width: 14em;
+    margin: auto;
+}
+.titulo{
+  align-items: center;
+  font-size: 2em;
+  background-color:#e0e0e0;
+  width: 14em;
+  margin: auto;
+  text-align: center;
 }

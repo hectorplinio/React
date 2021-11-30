@@ -1,8 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  section= s
+    .container
+    h1= title 
+    section.users= s
         - for (var i=0; i<3; i++)
             div= users[i]['username'] + " : " + users[i]['comment']
-    <a href="/">Back</a>       
+    <a href="/" class="users">Back</a>       

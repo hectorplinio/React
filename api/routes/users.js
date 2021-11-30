@@ -21,7 +21,7 @@ let users = [
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('users', { users });
+  res.render('users', { users, title: 'Users' });
 });
 
 module.exports = router;
